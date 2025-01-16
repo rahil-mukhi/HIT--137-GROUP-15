@@ -25,4 +25,33 @@ def draw_branch(branch_length, left_angle, right_angle, depth, reduction_factor,
     t.left(right_angle)
     t.backward(branch_length)
 
+    # Taking input from the user
+left_arrow = int(input("Enter the left branch angle (in degrees): "))
+right_arrow = int(input("Enter the right branch angle (in degrees): "))
+starting_branch_length = int(input("Enter the starting branch length : "))
+recursion_depth = int(input("Enter the recursion depth: "))
+reduction_factor = float(input("Enter the branch length reduction factor: "))
+
+# Setting up of the turtle screen
+screen = turtle.Screen()
+screen.title("Recursive Tree Pattern")
+
+# Setting up of the turtle
+t = turtle.Turtle()
+t.speed("fast")
+t.penup()
+
+# Adjusting the start position to center the tree
+t.goto(0, -starting_branch_length * 2)
+
+t.pendown()
+t.left(90)  # Pointing the turtle towards upwards
+
+# Drawing the tree
+draw_branch(starting_branch_length, left_arrow, right_arrow, recursion_depth, reduction_factor)
+
+t.hideturtle()  # Hide the turtle after the tree is drawn
+
+input("Press Enter to exit...")
+
 
