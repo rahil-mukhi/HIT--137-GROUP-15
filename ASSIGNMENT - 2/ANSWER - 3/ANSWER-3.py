@@ -1,3 +1,9 @@
+# GROUP NAME : CAS/DAN GROUP-15
+# GROUP MEMBERS: 385218 RAHIL MUKHI
+#                374427 RENISH VEKARIYA
+#                384646 RUHINA RAJABALI
+#                383635 RUSHABHKUMAR SAVAJ
+
 import turtle
 def draw_branch(branch_length, left_angle, right_angle, depth, reduction_factor, first_branch=True):
     if depth == 0:

@@ -1,3 +1,10 @@
+# GROUP NAME : CAS/DAN GROUP-15
+# GROUP MEMBERS: 385218 RAHIL MUKHI
+#                374427 RENISH VEKARIYA
+#                384646 RUHINA RAJABALI
+#                383635 RUSHABHKUMAR SAVAJ
+
+
 # Opens the raw text file "raw_text.txt" in the read mode and reads the text file
 text = open("raw_text.txt", "r")
 data = text.read()  # Read the content of the file
