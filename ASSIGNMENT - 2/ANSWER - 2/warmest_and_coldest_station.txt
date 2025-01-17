@@ -1,0 +1,3 @@
+Warmest Station in Australia: MARBLE-BAR (Max Temperature: 47.13 Celsius)
+
+Coolest Station in Australia: CABRAMURRA-SMHEA-AWS (Min Temperature: 3.81 Celsius)

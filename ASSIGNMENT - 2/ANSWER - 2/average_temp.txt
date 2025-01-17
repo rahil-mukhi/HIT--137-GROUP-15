@@ -1,0 +1,4 @@
+ Average Temperature in Spring : 27.43 Celsius
+ Average Temperature in Summer : 32.10 Celsius
+ Average Temperature in Autumn : 27.32 Celsius
+ Average Temperature in Winter : 21.07 Celsius

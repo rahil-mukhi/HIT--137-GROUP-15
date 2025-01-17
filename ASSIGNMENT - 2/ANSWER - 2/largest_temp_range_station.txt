@@ -1,0 +1,1 @@
+Station with largest temperature range in Australia: WAGGA-WAGGA-AMO (Temperature Range: 21.07 Celsius)

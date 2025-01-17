@@ -6,6 +6,8 @@
 
 # Importing required libraries
 # Here we are using pandas because it's best for working with tabular data
+# Importing required libraries
+# Here we are using pandas because it's best for working with tabular data
 import os
 import pandas as pd
 
@@ -39,6 +41,7 @@ def calculate_seasonal_averages(df, seasons, output_file):  # Creating Function 
             f.write(f" Average Temperature in {season} : {avg_temp:.2f} Celsius\n")
     print(f"Seasonal averages for all data written to {output_file}")
 
+
 def calculate_largest_temperature_range(df, output_file):  # Calculating temperature range for each station
     df['Temp_Range'] = df.iloc[:, 4:16].max(axis=1) - df.iloc[:, 4:16].min(axis=1)
     # Writing the station with the largest temperature range to a file.
@@ -48,6 +51,7 @@ def calculate_largest_temperature_range(df, output_file):  # Calculating tempera
         for _, row in largest_temp_range_station.iterrows():
             f.write(f"{row['STATION_NAME']} (Temperature Range: {row['Temp_Range']:.2f} Celsius)\n")
     print(f"Largest temperature range station written to {output_file}")
+
 
 def warmest_and_coldest_temperature(df, output_file):
     # Calculating maximum and minimum temperatures for each station
